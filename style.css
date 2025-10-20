@@ -16,6 +16,7 @@ body {
   display: flex;
   width: 736px;
   height: 512px;
+  background-color: white;
 }
 .title {
   text-align: center;
@@ -101,16 +102,21 @@ body {
 .reaction_icon {
   width: 71x;
   height: 23px;
+  margin: 15px;
 }
 .reaction_text {
   font-size: 18px;
   color: rgba(255, 85, 85, 1);
   font-weight: 500;
+  height: 23px;
+  margin: 15px;
 }
 .score_number {
   font-size: 18px;
   color: rgba(48, 59, 89, 1);
   font-weight: 700;
+  height: 23px;
+  margin: 15px;
 }
 
 .last_score {
